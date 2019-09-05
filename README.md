@@ -4,6 +4,10 @@ https://github.com/apache/spark/tree/5b021ce0990ec675afc6939cc2c06f041c973d17/co
 Some useful notes.
 https://github.com/JerryLead/SparkInternals
 
+Introduction to AmpLab Spark Internals by Matei Zaharia
+https://www.youtube.com/watch?v=49Hr5xZyTEA
+
+
 # Apache Spark
 
 Spark is a unified analytics engine for large-scale data processing. It provides

@@ -24,5 +24,9 @@ https://github.com/rohgar/scala-spark-4/wiki/Wide-vs-Narrow-Dependencies
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/Scheduler.scala
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/DAGScheduler.scala
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/LocalScheduler.scala#L33
+
+
+MesoScheduler
+http://mesos.apache.org/documentation/latest/architecture/
 http://mesos.apache.org/api/latest/java/org/apache/mesos/MesosSchedulerDriver.html
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/MesosScheduler.scala#L203

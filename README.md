@@ -19,7 +19,10 @@ https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-c
 http://mesos.apache.org/api/latest/java/org/apache/mesos/Executor.html
 http://mesos.apache.org/api/latest/java/org/apache/mesos/Protos.TaskStatus.html
 
-Schedulers 
+
+Schedulers
+
+
 https://github.com/rohgar/scala-spark-4/wiki/Wide-vs-Narrow-Dependencies
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/Scheduler.scala
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/DAGScheduler.scala
@@ -27,14 +30,20 @@ https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/co
 
 
 MesoScheduler
+
+
 http://mesos.apache.org/documentation/latest/architecture/
 http://mesos.apache.org/api/latest/java/org/apache/mesos/MesosSchedulerDriver.html
 http://mesos.apache.org/api/latest/java/org/apache/mesos/Scheduler.html
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/MesosScheduler.scala#L203
 
 
-Fetcher
+Fetcher(Pull Model)
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffleManager.scala#L71
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffleMapTask.scala#L29
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/MapOutputTracker.scala#L46
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffleFetcher.scala
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/SimpleShuffleFetcher.scala#L16
+
 
 

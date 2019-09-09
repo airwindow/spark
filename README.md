@@ -47,4 +47,10 @@ https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/co
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/SimpleShuffleFetcher.scala#L16
 
 
-
+ShuffleDependency
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/SparkContext.scala#L316
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/PairRDDFunctions.scala#L58
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffledRDD.scala#L39
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffleMapTask.scala#L40
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/MapOutputTracker.scala#L14
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/Dependency.scala

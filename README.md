@@ -61,6 +61,6 @@ https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/co
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/Dependency.scala#L10
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffledRDD.scala#L25
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/DAGScheduler.scala#L153
-
-
+note: only ShuffleDep causes the add of new stage
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/DAGScheduler.scala#L130
 

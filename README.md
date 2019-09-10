@@ -1,4 +1,4 @@
-# Personal Usage: Dive into Original Spark Source Code.
+# Dive into Original Spark Source Code.
 Original source code to look into
 https://github.com/apache/spark/tree/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark
 
@@ -54,3 +54,13 @@ https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/co
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffleMapTask.scala#L40
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/MapOutputTracker.scala#L14
 https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/Dependency.scala
+
+
+ShuffleRDD LifeCycle
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/PairRDDFunctions.scala#L63
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/Dependency.scala#L10
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/ShuffledRDD.scala#L25
+https://github.com/apache/spark/blob/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark/DAGScheduler.scala#L153
+
+
+
